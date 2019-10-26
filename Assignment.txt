@@ -1,0 +1,84 @@
+Assignment 1 :
+
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>APPLICANT PERSONAL INFORMATION</h1><hr>
+	<title>  </title>
+</head>
+<body>
+Name : <input type="text" name="FirstName" placeholder="Given Name(FirstName)">
+<input type="text" name="MiddleName" placeholder="Middle Name" >
+<input type="text" name="LastName" placeholder="Surname(Last Name)"><hr>
+Full name in native alphabet : <input type="text" name="Full Name" placeholder="Full name"><hr>
+Date of Birth : <input type="Date" name="bdate"><hr>
+Gender : <input type="radio" name="Gender" value="male">Male
+<input type="radio" name="Gender" value="female">Female<hr>
+Email : <input type="Email" name="email" placeholder="Email">
+<input type="email" name="email" placeholder="Confirm email"><hr>
+Place of Birth(country/state/city)<select><option>Please Select</option> </select>
+<input type="text" name="State name" placeholder="State name">
+<input type="text" name="City" placeholder="City"><hr>
+Nationlity : <input type="text" name="Nationlity"><hr>
+Do you have an alias or maidan name? <input type="radio" name="Name" value="yes">Yes
+<input type="radio" name="Name" value="No">No<hr>
+Do you have a telecode that represent your name? <input type="radio" name="Name" value="yes">Yes
+<input type="radio" name="Name" value="No">No<hr>
+Marital status : <select name="status" form="status"> <option value="Please select">Please Select</option></select>
+</body>
+</html>
+
+
+
+
+Assignment 2 :
+
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>INFORMATION ABOUT YOUR PARENTS</h1><hr>
+</head>
+<body>
+Father's Name : <input type="text" name="Father name"  placeholder="Father's Given Name(First Name)">
+<input type="text" name="Father name"  placeholder="Father's SurName(Last Name)"><hr>
+Do you know your father's date of birth?<input type="radio" name="bday" value="yes">Yes
+<input type="radio" name="bday" value="no">No<hr>
+Is your father currently in United States? <input type="radio" name="us" value="yes">Yes
+<input type="radio" name="us" value="no">No<hr>
+Mother's Name : <input type="text" name="Mother name"  placeholder="Mother's Given Name(First Name)">
+<input type="text" name="Mother name"  placeholder="Mother's SurName(Last Name)"><hr>
+Do you know your mother's date of birth?<input type="radio" name="bday" value="yes">Yes
+<input type="radio" name="bday" value="no">No<hr>
+Is your mother currently in United States? <input type="radio" name="us" value="yes">Yes
+<input type="radio" name="us" value="no">No<hr>
+Do you currently have any immediatls relative in the United States? <input type="radio" name="us" value="yes">Yes
+<input type="radio" name="us" value="no">No<hr>
+Do you have any other relativesin the United States? <input type="radio" name="us" value="yes">Yes
+<input type="radio" name="us" value="no">No<hr>
+</body>
+</html>
+
+
+
+Assignment 3 :
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>CONTACT INFORMATION <br> Address of the Person Applying for Visa</h1><hr>
+</head>
+<body>
+Phone Number : <input type="tel" name="Phone Number"><hr>
+Secondary/work phone numbers : <input type="tel" name="Phone Number"><hr>
+Home Address<br>
+Street Address : <input type="text" name="Address"><br><br>
+Apartment/Suite/Unit Number : <input type="text" name="text" align="right"><br><br>
+City : <input type="text" name="text"><br><br>
+ZIP or Postal Code : <input type="text" name="text"><br><br>
+Country : <select><option>Please Select</option></select><hr>
+Is your mailing address different from your home address? <input type="radio" name="name" value="yes">Yes
+<input type="radio" name="name" value="no">No<br><br><br>
+<input type="submit" value="Continue">
+</body>
+</html>
