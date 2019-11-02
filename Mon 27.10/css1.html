@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			border:3px solid blue;
+			display: inline-block;
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+			padding: 20px;
+			/*visibility: hidden;/*position stay*/
+			opacity: 1;
+		}
+		img{
+			position: absolute;/*bsheel el pic w beo6ha m7l ma bdk*/
+			right: 100px;
+			top: 0;
+			z-index: 3;
+			display: none;/*position dont stay*/
+		}
+		#o{
+			right: 150px;
+			top: 0;
+			z-index: 2;
+		}
+		
+	</style>
+</head>
+<body>
+<div>Hisham</div>
+<div>Yazan</div>
+<div>Baraa</div>
+<p >Ahmad</p>
+<p>Anas</p>
+<p>Salem</p>
+<img src="face.png">
+<img src="face.png" id="o">
+</body>
+</html>
