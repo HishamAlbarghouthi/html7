@@ -1,0 +1,27 @@
+.hero-unit{
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 300px;
+}
+.container {
+	padding-bottom: 50px;
+}
+.form1{
+	background-color: white;
+}
+.a1{
+	color: #fff;
+}
+.custom-nav{
+	background: #fff;
+
+}
+.custom-nav ul li a{
+	color: #000 !important;
+	text-shadow: none !important; 
+}
+.custom-nav ul li a:hover{
+	
+	text-shadow: none !important; 
+}
